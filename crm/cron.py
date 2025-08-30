@@ -1,5 +1,7 @@
 import datetime
 import requests
+from crm.models import Product
+
 
 LOG_FILE = "/tmp/crm_heartbeat_log.txt"
 GRAPHQL_ENDPOINT = "http://localhost:8000/graphql"
