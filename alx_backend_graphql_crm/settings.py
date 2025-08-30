@@ -38,8 +38,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     "graphene_django",
-    "crm",
     "django_crontab",
+    "crm",
 ]
 
 CRONJOBS = [
